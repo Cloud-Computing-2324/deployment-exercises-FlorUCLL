@@ -1,0 +1,16 @@
+ingress:
+  enabled: true
+  hosts:
+    - host: wiki.48.cc.ucll.cloud
+      paths:
+        - path: "/"
+          pathType: Prefix
+
+
+resources:
+  limits:
+     cpu: "500m"
+     memory: "640Mi"
+  requests:
+    cpu: "500m"
+    memory: "640Mi"

@@ -1,0 +1,7 @@
+ingress:
+  enabled: true
+  hosts:
+    - host: up.48.cc.ucll.cloud
+      paths:
+        - path: "/"
+          pathType: ImplementationSpecific
